@@ -1,0 +1,86 @@
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form.login {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 40px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 10px 6px -6px #777;
+    align-items: flex-start;
+    background: gainsboro;
+}
+input:hover{
+    border-color: #1890ff !important;
+}
+input#login-email {
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: rgba(0,0,0,0.65);
+    width: 100%;
+}
+input#login-password {
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.65);
+    width: 100%;
+}
+button.login-btn {
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: #1890ff;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #1890ff;
+    padding: 10px;
+    font-weight: 400;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    outline: none;
+    width: 100%;
+}
+button.login-btn:hover {
+    background-color: #1890ffe8;
+}
+.sign-up > a{
+    font-size: 14px;
+    transition: color .3s ease;
+    color: #1890ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sign-up > a:hover{
+    color: #40a9ff;
+}
+.sign-up {        
+    padding-left: 3px;
+}
+.err{
+    text-align: center;
+    width: 100%;
+    background: red;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+i.fas.fa-user-lock {
+    font-size: initial;
+    padding: 1px 3px;
+}
+i.fas.fa-lock {
+    font-size: initial;
+    padding: 1px 3px;
+}
