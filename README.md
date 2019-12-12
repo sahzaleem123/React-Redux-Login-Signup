@@ -1,1 +1,1 @@
-# React-Redux-Login-Signup
+# React Redux-Login/Signup
